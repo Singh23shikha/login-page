@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100%;
+    width:100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(to right bottom, rgb(10, 181, 211) 30%, rgb(210, 23, 195) , rgb(243, 75, 218) );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+.border-design{
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 300px;
+    margin-top: 14.5rem;
+    background-color: white;
+    box-shadow: 1px 2px rgb(142, 140, 140);
+    border-radius: 3%;
+    
+    
+    
+}
+.border-design h1{
+    text-align: center;
+    margin-top: 10.5px;
+    margin-bottom: 1.5rem;
+}
+.form {
+    margin-left:0.2rem;
+}
+.lable1{
+    font-size: 1.1rem;
+    color:rgb(44, 43, 43) ;
+    
+}
+.form .input-username{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.input-username input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(205, 203, 203);
+    margin-left: 1rem;
+    
+
+}
+.input-username i{
+    position: absolute;
+    
+}
+.lable2{
+    font-size: 1.1rem;
+    color: rgb(44, 43, 43);
+    
+}
+.form .input-password{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.input-password input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(205, 203, 203);
+    margin-left: 1rem;
+    
+
+}
+
+.input-password i{
+    position: absolute;
+    
+}
+.option{
+    text-align: right;
+    color: rgb(44, 43, 43) ;
+    margin-top: 10px;
+}
+.option:hover{
+    text-decoration: underline;
+}
+.login{
+    margin-top: 1.2rem;
+    margin-left: 0.2rem;
+    padding: 0.3rem 6.5rem;
+    border-radius: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(to right , rgb(10, 181, 211) 30%, rgb(210, 23, 195) , rgb(243, 75, 218) );
+    border: none;
+    color: aliceblue;
+}
+.login:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+    color: black;
+}
+.sign-in{
+    margin-top: 1.2rem;
+    text-align: center;
+    color: rgb(82, 81, 81) ;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    
+}
+.facebook{
+    margin-right: 0.7rem;
+    
+}
+.facebook:hover{
+    background-color: rgb(47, 47, 78);
+    color: azure;
+    border: 3px solid rgb(47, 47, 78);
+    border-radius: 50%;
+    
+}
+.twitter{
+    margin-right: 0.7rem;
+    
+    border-radius: 50%;
+}
+.twitter:hover{
+    color: azure;
+    background-color: rgb(13, 113, 236);
+    border: 3px solid rgb(13, 113, 236);
+    border-radius: 50%;
+
+}
+.google{
+    margin-right: 0.7rem;
+
+}
+.google:hover{
+    background-color: rgb(218, 108, 12);
+    color: azure;
+    border: 3px solid rgb(218, 97, 5);
+    border-radius: 50%;
+}
+.para{
+    text-align: center;
+    margin-top: 1.2rem;
+    color: rgb(82, 81, 81) ;
+}
+.sign-up{
+    margin-left: 5.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    color: rgb(51, 50, 50);
+}
+.sign-up:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:600px) {
+
+    /*.border-design{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 30rem;
+    
+    }*/
+}
